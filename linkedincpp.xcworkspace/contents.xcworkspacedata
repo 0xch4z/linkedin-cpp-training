@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Working/Working.xcodeproj">
+   </FileRef>
+   <Group
+      location = "group:Work"
+      name = "Work">
+      <Group
+         location = "group:Chap01"
+         name = "Chap01">
+         <FileRef
+            location = "group:cpp11.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:hello-cout.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:hello.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:loop.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:working.cpp">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Chap02"
+         name = "Chap02">
+         <FileRef
+            location = "group:func-operator.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:func-overload.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:func.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:func.h">
+         </FileRef>
+         <FileRef
+            location = "group:goto.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:jump.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:recursive-factorial.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:variadic.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:working.cpp">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Chap03"
+         name = "Chap03">
+         <FileRef
+            location = "group:conditional.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:conditional.h">
+         </FileRef>
+         <FileRef
+            location = "group:includeA.h">
+         </FileRef>
+         <FileRef
+            location = "group:includeB.h">
+         </FileRef>
+         <FileRef
+            location = "group:preproc.h">
+         </FileRef>
+         <FileRef
+            location = "group:working.cpp">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Chap04"
+         name = "Chap04">
+         <FileRef
+            location = "group:accessors.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:class.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:constructors.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:exceptions.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:function-object.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:implicit-explicit.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:namespace.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:new-delete.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:numword-test.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:numword.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:numword.h">
+         </FileRef>
+         <FileRef
+            location = "group:rational.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:working.cpp">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Chap05"
+         name = "Chap05">
+         <FileRef
+            location = "group:auto-type.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:bitfields.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:c-strings.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:char-escape.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:enum.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:float-types.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:nullptr.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:qualifiers.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:struct.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:union.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:void-type.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:working.cpp">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Chap06"
+         name = "Chap06">
+         <FileRef
+            location = "group:bprint.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:compound-op.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:incr-decr.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:new-delete.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:typeid.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:working.cpp">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Chap07"
+         name = "Chap07">
+         <FileRef
+            location = "group:simple-inheritance.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:working.cpp">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Chap08"
+         name = "Chap08">
+         <FileRef
+            location = "group:decltype.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:template-class.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:template-function.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:working.cpp">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Chap09"
+         name = "Chap09">
+         <FileRef
+            location = "group:errno.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:file-io-struct.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:file-io.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:string.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:time.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:working.cpp">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Chap10"
+         name = "Chap10">
+         <FileRef
+            location = "group:deque.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:exception.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:iostream-file.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:iostream-formatting.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:iterator.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:list.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:map.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:queue.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:set.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:stack.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:string.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:vector.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:working.cpp">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:Operator Precedence.pdf">
+      </FileRef>
+   </Group>
+</Workspace>
