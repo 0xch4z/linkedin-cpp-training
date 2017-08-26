@@ -52,6 +52,9 @@
          <FileRef
             location = "group:ternary-expressions.cpp">
          </FileRef>
+         <FileRef
+            location = "group:queue-implementation.cpp">
+         </FileRef>
       </Group>
       <Group
          location = "group:Chap02"

@@ -37,7 +37,6 @@ void Stack::push(int n) {
         _head = newNode;
         _head -> next = tmp;
     }
-    printf("Successfully pushed %d to the stack\n", n);
 }
 
 int Stack::peek() {
@@ -46,11 +45,13 @@ int Stack::peek() {
 
 int Stack::pop() {
     if (_head == NULL) {
-        puts("The stack is empty\n");
+        puts("The stack is empty");
         return -1;
     }
-    int v = _head -> data;
+    node *oldHead = _head;
+    int v = oldHead -> data;
     _head = _head -> next;
+    delete oldHead;
     return v;
 }
 
@@ -64,16 +65,15 @@ int main() {
     s.push(6);
     s.push(7);
     
-    printf("%d\n", s.pop());
-    printf("%d\n", s.pop());
+    printf("%d\n", s.pop()); // should return 7
+    printf("%d\n", s.pop()); // should return 6
     
     s.push(20);
     
-    printf("%d\n", s.pop());
-    printf("%d\n", s.pop());
-    printf("%d\n", s.pop());
-    printf("%d\n", s.pop());
+    printf("%d\n", s.pop()); // should return 20
+    printf("%d\n", s.pop()); // should return 5
+    printf("%d\n", s.pop()); // sould return -1
+    printf("%d\n", s.pop()); // should return -1
     
     return 0;
 }
-
