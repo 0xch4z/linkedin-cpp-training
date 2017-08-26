@@ -25,6 +25,33 @@
          <FileRef
             location = "group:working.cpp">
          </FileRef>
+         <FileRef
+            location = "group:const.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:pointer.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:references.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:stack-implementation.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:itteration.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:string.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:array.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:if-statements.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:ternary-expressions.cpp">
+         </FileRef>
       </Group>
       <Group
          location = "group:Chap02"
