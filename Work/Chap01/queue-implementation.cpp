@@ -10,8 +10,8 @@
 using namespace std;
 
 struct node {
-    int data;
     node *next;
+    int data;
 };
 
 class Queue {
@@ -19,57 +19,74 @@ class Queue {
     node *_tail;
 public:
     Queue();
+    bool isEmpty();
     void enqueue(int);
     int dequeue();
     int peek();
 };
 
 Queue::Queue() {
-    _head = NULL;
-    _tail = NULL;
+    _head = nullptr;
+    _tail = nullptr;
+}
+
+bool Queue::isEmpty() {
+    return _head == nullptr;
 }
 
 void Queue::enqueue(int n) {
     node *newNode = new node;
     newNode -> data = n;
-    newNode -> next = NULL;
-    if (_head == NULL) {
+    newNode -> next = nullptr;
+    if (isEmpty()) {
         _head = newNode;
+        _tail = newNode;
     } else {
         _tail -> next = newNode;
+        _tail = newNode;
     }
-    _tail = newNode;
-}
-
-int Queue::dequeue() {
-    if (_head == NULL) {
-        cout << "the queue is empty" << endl;
-        return -1;
-    }
-    node *oldHead = _head;
-    int v = oldHead -> data;
-    _head = _head -> next;
-    delete oldHead;
-    return v;
 }
 
 int Queue::peek() {
+    if (isEmpty()) {
+        cout << "The queue is empty" << endl;
+        return -1;
+    }
     return _head -> data;
 }
 
-int main() {
+int Queue::dequeue() {
+    if (isEmpty()) {
+        cout << "The queue is empty" << endl;
+        return -1;
+    }
+    node *oldHead = _head;
+    int val = oldHead -> data;
+    _head = _head -> next;
+    delete oldHead;
+    return val;
+}
+
+int main( ) {
     
     // init queue
     Queue q;
     
     q.enqueue(5);
-    q.enqueue(8);
+    q.enqueue(4);
+    q.enqueue(3);
     
-    cout << q.dequeue() << endl; // should return 5
-    cout << q.dequeue() << endl; // should return 8
-    q.enqueue(5);
-    cout << q.dequeue() << endl; // should return 5
-    cout << q.dequeue() << endl; // should return -1
+    for (int i = 4; i; --i) {
+        cout << q.dequeue() << endl;
+    }
+    
+    /**
+     * => 5
+     * => 4
+     * => 3
+     * => -1
+     */
     
     return 0;
 }
+

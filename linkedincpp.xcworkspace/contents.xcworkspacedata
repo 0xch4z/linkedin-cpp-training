@@ -58,6 +58,15 @@
          <FileRef
             location = "group:switch.cpp">
          </FileRef>
+         <FileRef
+            location = "group:while.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:cpp14-for-range.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:stdout.cpp">
+         </FileRef>
       </Group>
       <Group
          location = "group:Chap02"
