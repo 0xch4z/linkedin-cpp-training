@@ -5,7 +5,9 @@
 //  Created by Charles Kenney on 8/26/17.
 //
 
-#include <cstdio>
+#include <iostream>
+
+using namespace std;
 
 struct node {
     int data;
@@ -16,64 +18,74 @@ class Stack {
     node *_head;
 public:
     Stack();
-    void push(int);
     int pop();
     int peek();
+    bool isEmpty();
+    void push(int);
 };
 
 Stack::Stack() {
     _head = NULL;
 }
 
+bool Stack::isEmpty() {
+    return _head == NULL;
+}
+
 void Stack::push(int n) {
     node *newNode = new node;
     newNode -> data = n;
     newNode -> next = NULL;
-    if (_head == NULL) {
+    if (isEmpty()) {
         _head = newNode;
     } else {
-        node *tmp;
-        tmp = _head;
+        node *oldHead = _head;
         _head = newNode;
-        _head -> next = tmp;
+        _head -> next = oldHead;
     }
 }
 
 int Stack::peek() {
+    if (isEmpty()) {
+        cout << "The stack is empty!" << endl;
+        return -1;
+    }
     return _head -> data;
 }
 
 int Stack::pop() {
-    if (_head == NULL) {
-        puts("The stack is empty");
+    if (isEmpty()) {
+        cout << "The stack is empty!" << endl;
         return -1;
     }
     node *oldHead = _head;
-    int v = oldHead -> data;
+    int val = oldHead -> data;
     _head = _head -> next;
     delete oldHead;
-    return v;
+    return val;
 }
 
 int main() {
     
     // init stack
-    
     Stack s;
     
     s.push(5);
-    s.push(6);
-    s.push(7);
+    s.push(4);
+    s.push(3);
     
-    printf("%d\n", s.pop()); // should return 7
-    printf("%d\n", s.pop()); // should return 6
+    for (int i = 0; i < 4; ++i) {
+        cout << s.pop() << endl;
+    }
     
-    s.push(20);
-    
-    printf("%d\n", s.pop()); // should return 20
-    printf("%d\n", s.pop()); // should return 5
-    printf("%d\n", s.pop()); // sould return -1
-    printf("%d\n", s.pop()); // should return -1
+    /*
+     * Test cases
+     *
+     * (1. => 3
+     * (2. => 4
+     * (3. => 5
+     * (4. => -1
+     */
     
     return 0;
 }

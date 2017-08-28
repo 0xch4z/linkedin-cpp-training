@@ -55,6 +55,9 @@
          <FileRef
             location = "group:queue-implementation.cpp">
          </FileRef>
+         <FileRef
+            location = "group:switch.cpp">
+         </FileRef>
       </Group>
       <Group
          location = "group:Chap02"
