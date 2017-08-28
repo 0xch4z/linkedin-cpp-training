@@ -156,6 +156,18 @@
          <FileRef
             location = "group:working.cpp">
          </FileRef>
+         <FileRef
+            location = "group:macro.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:macro.hpp">
+         </FileRef>
+         <FileRef
+            location = "group:complex-include.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:complex-include.hpp">
+         </FileRef>
       </Group>
       <Group
          location = "group:Chap04"
