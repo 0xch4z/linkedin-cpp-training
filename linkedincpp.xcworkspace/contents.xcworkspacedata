@@ -98,6 +98,42 @@
          <FileRef
             location = "group:working.cpp">
          </FileRef>
+         <FileRef
+            location = "group:call-by-value.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:call-by-reference.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:forward-function.c">
+         </FileRef>
+         <FileRef
+            location = "group:forward-function.h">
+         </FileRef>
+         <FileRef
+            location = "group:static.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:static.hpp">
+         </FileRef>
+         <FileRef
+            location = "group:return.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:overload.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:overload.hpp">
+         </FileRef>
+         <FileRef
+            location = "group:operator.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:cstdarg.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:fibonacci.cpp">
+         </FileRef>
       </Group>
       <Group
          location = "group:Chap03"
