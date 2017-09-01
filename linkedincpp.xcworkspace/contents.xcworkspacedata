@@ -211,6 +211,21 @@
          <FileRef
             location = "group:working.cpp">
          </FileRef>
+         <FileRef
+            location = "group:stack.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:stack.hpp">
+         </FileRef>
+         <FileRef
+            location = "group:main.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:Num.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:Num.hpp">
+         </FileRef>
       </Group>
       <Group
          location = "group:Chap05"
