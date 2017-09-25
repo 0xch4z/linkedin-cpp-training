@@ -173,6 +173,12 @@
          location = "group:Chap04"
          name = "Chap04">
          <FileRef
+            location = "group:../../Working/Working/num.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:../../Working/Working/num.hpp">
+         </FileRef>
+         <FileRef
             location = "group:accessors.cpp">
          </FileRef>
          <FileRef
